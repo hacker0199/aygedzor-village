@@ -1,0 +1,60 @@
+body{
+	margin:0px;
+}
+.login{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	position:absolute;
+	right:100px;
+	top:30px;
+	color:#77b1a3;
+	font-size:20px;
+	font-weight:bold;
+}
+.usa_flag{
+	position:absolute;
+	right:40px;
+	top:15px;
+	width:50px;
+}
+.aygedzor{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color:#77b1a3;
+	margin-left:20px;
+}
+.menu{
+	background-color:#5fa292;
+	padding:20px;
+}
+a{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-decoration:none;
+}
+.img_aygedzor{
+	width:100%;
+}
+.about{
+	position: absolute;
+	top: 250px;	
+	font-family: Didot, serif;
+	font-size: 50px;
+	color: white;
+	margin-top:25px;
+	margin-left:20px;
+}
+.footer{
+	background-color:#77b1a3;
+	height:150px;
+	margin-top:0px;
+}
+.realswb{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding-top:100px;
+	margin-left:20px;
+	color:white;
+}
+.menu a{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin-left:50px;
+	color:white;
+	font-size:20px;
+}
