@@ -28,22 +28,25 @@
 			<img class="scrolimg" src="../img/scrollup.png">
 		</div>
 		<script>
-			$(window).on('scroll', function () {
-			  var scroll = $(window).scrollTop();
-			  if (scroll > 50) {
-			    $('.menu').css('margin-top', '-81px')
-			    $('.scrollup').show(200)
-			    $('.scrollup').css('opacity', '1')
+			//Get the button
+			var mybutton = document.getElementById("myBtn");
+
+			// When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+			  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			 	mybutton.style.display = "block";
 			  } else {
-			    $('.menu').css('margin-top', '0px')
-			    $('.scrollup').css('opacity', '0')
-			    $('.scrollup').hide(200)
+			  	mybutton.style.display = "none";
 			  }
-			});
-			$('.scrollup').on('click', function(){
-			  var body = $("html, body");
-			  body.stop().animate({scrollTop:0}, 1500, 'swing');
-			})
+			}
+
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+				document.body.scrollTop = 0;
+				document.documentElement.scrollTop = 0;
+			}
 		</script>
 	</body>
 </html>
